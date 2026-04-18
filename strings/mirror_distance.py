@@ -1,5 +1,8 @@
 #  LeetCode 3783: Mirror Distance of an Integer asks you to return the absolute difference between a positive integer n and its mirror (digit reversal, ignoring leading zeros in the reverse)
 
+# Time complexity - O(log n)
+# Space complexity - O(1)
+
 class Solution:
     def mirrorDistance(self, n: int) -> int:
         reversed_num = 0
